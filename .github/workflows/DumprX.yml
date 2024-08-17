@@ -49,7 +49,7 @@ jobs:
 
        - name: Clone Our Firmware Dumper
          run: |
-              git clone https://github.com/DumprX/DumprX.git DumprX
+              git clone https://github.com/sounddrill31/DumprX.git crave-exp-2
 
        - name: Setup DumprX's Environment
          working-directory: DumprX
