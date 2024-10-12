@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       ROM_URL:
-        description: "Direct Link of the ROM/Firmware to Dump"
+        description: "https://infinixfirmware.com/infinix-hot-30/"
         required: true
        # Requester
       USER_NAME:
-        description: "Telegram Username of Who Requested The Dump"
+        description: "@Only_Mark"
         required: false
       EXTRA_CMD:
         description: "Any Extra Command to Run Before Dump"
